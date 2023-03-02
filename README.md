@@ -1,3 +1,3 @@
 # MSP430 - Control LEDs with joy stick and show it's voltage on LCD
 ## Overview
-This project contains a C code that configures the **MSP430F5529**, an **UART** interface, a **joystick** and a **LCD** display to show the joystick's **x** and **y** axis values, read by the MSP430's ADC12 conversor, and converted to volts.
+This project contains a C code that configures the **MSP430F5529**, an **UART** interface, a **joystick** and a **LCD** display to show the joystick's **x** and **y** axis values, read by the MSP430's ADC12 conversor, and converted to volts. The Timer A1 and Timer A2 are configured to work at 12,8Hz, with a duty cycle of 5%. The red and green MSP430 LED's frequency and light intensity are controlled by the joystick's x and y axis, when the user inputs **f** (to control the frequency) or **l** (to control the light intensity) into the UART interface.
